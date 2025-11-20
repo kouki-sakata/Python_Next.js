@@ -1,0 +1,20 @@
+[project]
+name = "todo-backend"
+version = "0.1.0"
+description = "FastAPI Backend for ToDo App"
+authors = [
+    {name = "Antigravity"}
+]
+readme = "README.md"
+requires-python = "^3.11"
+dependencies = [
+    "fastapi (>=0.121.3,<0.122.0)",
+    "uvicorn (>=0.38.0,<0.39.0)",
+    "sqlmodel (>=0.0.27,<0.0.28)",
+    "psycopg2-binary (>=2.9.11,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
